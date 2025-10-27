@@ -5,8 +5,8 @@ natas0
 natas0
 
 ## Write-Up
-There is no information on webpage.
-Just open Devtools, and View index.html source code.
+There is no information on webpage.  
+Just open Devtools, and view HTML source code.  
 There is a comment that hides password.
 
 ## Method of solve
