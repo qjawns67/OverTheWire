@@ -6,7 +6,7 @@ natas3
 
 ## Write-Up
 There is nothing on this page.  
-I found out <!-- No more information leaks!! Not even Google will find it this time... --> comment in HTML source code.  
+I found out "No more information leaks!! Not even Google will find it this time..." comment in HTML source code.  
 We should know that how "Web Crawler" for search engine like Google works.  
 Web Crawler is bot that search for Internet automatically to index website information.  
 Web Service provide a guide, robots.txt that tells which pages it can index and which pages it shouldn't index to Web Crawler.   
