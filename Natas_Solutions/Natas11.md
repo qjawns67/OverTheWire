@@ -33,6 +33,34 @@ print(xor_encrypt($decoded_base64));
 
     eDWoeDWoeDWoeDWoeDWoeDWoeDWoeDWoeDWoeDWoe
     
-We got a key.
-    
+We got a key.  
+Now we have to make a new cookie.
+
+```php
+<?php
+//New data that showpassword is yes for right cookie
+$new_data=array("showpassword"=>"yes", "bgcolor"=>"#ffffff");
+function xor_encrypt($in) {
+    $key = 'eDWo';
+    $text = $in;
+    $outText = '';
+
+    // Iterate through each character
+    for($i=0;$i<strlen($text);$i++) {
+    $outText .= $text[$i] ^ $key[$i % strlen($key)];
+    }
+
+    return $outText;
+}
+$encoded_json=json_encode($new_data);
+$encrypted_xor=xor_encrypt($encoded_json);
+$encoded_base64=base64_encode($encrypted_xor);
+
+print($encoded_base64);
+?>
+```
+
+
 ## Method of solve
+XOR Encryption  
+Scripting PHP code
