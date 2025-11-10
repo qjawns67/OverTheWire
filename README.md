@@ -3,7 +3,7 @@
 This repository documents my journey and solutions for the OverTheWire wargames, serving as a personal log for review and learning.
 
 ![Bandit](https://img.shields.io/badge/Bandit-0%2F34-blue?style=for-the-badge)
-![Natas](https://img.shields.io/badge/Natas-7%2F34-red?style=for-the-badge)
+![Natas](https://img.shields.io/badge/Natas-14%2F34-red?style=for-the-badge)
 ![Leviathan](https://img.shields.io/badge/Leviathan-0%2F8-green?style=for-the-badge)
 ![Krypton](https://img.shields.io/badge/Krypton-0%2F7-yellow?style=for-the-badge)
 
@@ -21,12 +21,13 @@ Each wargame has its own directory, and each level's solution is documented in a
 
 ```
 .
-├── Bandit/
-│   ├── Level-00-to-01.md
-│   ├── Level-01-to-02.md
+├── Bandit_Solutions/
+│   ├── Bandit00.md
+│   ├── Bandit01.md
 │   └── ...
-├── Natas/
-│   ├── Level-00-to-01.md
+├── Natas_Solutions/
+│   ├── Natas00.md
+│   ├── Natas01.md
 │   └── ...
 └── README.md
 ```
