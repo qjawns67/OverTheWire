@@ -3,7 +3,7 @@
 This repository documents my journey and solutions for the OverTheWire wargames, serving as a personal log for review and learning.
 
 ![Bandit](https://img.shields.io/badge/Bandit-0%2F34-blue?style=for-the-badge)
-![Natas](https://img.shields.io/badge/Natas-14%2F34-red?style=for-the-badge)
+![Natas](https://img.shields.io/badge/Natas-17%2F34-red?style=for-the-badge)
 ![Leviathan](https://img.shields.io/badge/Leviathan-0%2F8-green?style=for-the-badge)
 ![Krypton](https://img.shields.io/badge/Krypton-0%2F7-yellow?style=for-the-badge)
 
