@@ -12,3 +12,4 @@ grep command(e.g., grep -i A file_A file_B file_C) can be executed about multipl
 So if we submit any single alphabet(e.g., a) and then type /etc/natas_webpass/natas11, we can get password.  
  
 ## Method of solve
+grep command injection
